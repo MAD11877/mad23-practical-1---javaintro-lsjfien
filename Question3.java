@@ -11,6 +11,8 @@ public class Question3
      */
      
     Scanner in = new Scanner(System.in);
-    
+    System.out.print("Enter integer: ");
+    int num = in.nextInt();
+    System.out.print("The product of " + num + " to itself is: " + num*num);
   }
 }
